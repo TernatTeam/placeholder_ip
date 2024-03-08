@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "copyrat",
-    "slug": "copyrat",
-    "version": "1.0.5",
+    "name": "test",
+    "slug": "test",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icons/android_icon_2.png",
     "userInterfaceStyle": "light",
@@ -11,33 +11,27 @@
       "resizeMode": "contain",
       "backgroundColor": "#747474"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0,
-      "url": "https://u.expo.dev/2d87150e-38ba-424e-aec5-bec01fcb7b59"
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "backgroundColor": "#747474"
+      "supportsTablet": true
     },
     "android": {
-      "versionCode": 6,
       "backgroundColor": "#747474",
       "adaptiveIcon": {
         "foregroundImage": "./assets/icons/android_icon_2.png",
         "backgroundColor": "#FFFFFF"
-      },
-      "package": "com.aamasteraa.copyrat"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "2d87150e-38ba-424e-aec5-bec01fcb7b59"
+        "projectId": "0b5a91db-6cbf-4642-8c0c-6c673d850b35"
       }
     },
-    "runtimeVersion": {
-      "policy": "sdkVersion"
-    }
+    "owner": "ternatteam"
   }
 }
