@@ -318,7 +318,7 @@ export const LobbyPage = ({ navigation, route }) => {
             medium
             bg={players.length <= 3 ? 'primary1.100' : 'primary3.300'}
             _pressed={{ bg: 'primary3.400' }}
-            disabled={isLoadingButton || players.length <= 3}
+            disabled={isLoadingButton || players.length <= 0}
             isLoading={isLoadingButton}
             _spinner={{ paddingY: '0.45' }}
           >
